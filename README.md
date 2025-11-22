@@ -5,17 +5,18 @@
 
 
 ## AIM:
-To perform various edge detection techniques on an input image using Python and OpenCV.
+To detect edges in an image using Canny edge detection.
 
 
 ## PROCEDURE:
-1. Import the required libraries such as OpenCV, NumPy, and Matplotlib.
-2. Load the input image in grayscale mode.
-3. Apply Sobel operator in both X and Y directions to detect edges.
-4. Apply Laplacian operator to highlight image intensity variations.
-5. Apply Canny edge detector with threshold values.
-6. Display all detected edge results using Matplotlib.
-7. Analyze and compare the results from different edge detection techniques.
+
+1. Import required libraries: OpenCV and Matplotlib.
+2. Load the input image in grayscale format.
+3. Apply Gaussian Blur to reduce image noise.
+4. Perform Canny Edge Detection with appropriate threshold values.
+5. Display both the original and edge-detected images.
+6. Analyze the detected edges.
+
 
 ## REQUIREMENTS:
 - Python 3.x
@@ -47,4 +48,4 @@ plt.show()
 
 
 ## RESULT:
-Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
+Thus, edges of the input image were successfully detected using Canny edge detection techniques.
